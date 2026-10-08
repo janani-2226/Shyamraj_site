@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Figtree", ui-sans-serif, system-ui, sans-serif;
+
+  --color-navy-950: #0a1628;
+  --color-navy-900: #0b192f;
+  --color-navy-800: #10223f;
+  --color-navy-700: #1a2d4d;
+  --color-brand: #e31e24;
+  --color-brand-dark: #c4171d;
+  --color-paper: #f6f6f6;
+  --color-ink: #0b192f;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-navy-900 font-sans text-ink antialiased;
+}
+
+/* Small uppercase label used across sections */
+@utility eyebrow {
+  @apply text-[11px] font-semibold uppercase tracking-[0.2em];
+}
+
+/* Large section headline */
+@utility headline {
+  @apply text-4xl leading-[1.05] font-extrabold tracking-[-0.035em] md:text-5xl lg:text-[3.25rem];
+}
+
+@utility container-site {
+  @apply mx-auto w-[80%];
+}
+
+@keyframes fade {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
