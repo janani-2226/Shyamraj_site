@@ -28,7 +28,7 @@ export default function Header() {
   return (
     <>
       {/* Top info bar */}
-      <div className="hidden border-b border-white/10 bg-navy-800 md:block">
+      {/* <div className="hidden border-b border-white/10 bg-navy-800 md:block">
         <div className="container-site flex items-center justify-between py-2.5 text-[11px]">
           <p className="tracking-[0.18em] text-slate-400 uppercase">
             Beehive Communication Club · Virudhunagar Toastmasters
@@ -43,7 +43,7 @@ export default function Header() {
             </a>
           </p>
         </div>
-      </div>
+      </div> */}
 
       <header className="sticky top-0 z-50 border-b border-white/10 bg-navy-900/95 backdrop-blur">
         <div className="container-site flex items-center justify-between py-4">

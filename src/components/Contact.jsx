@@ -137,7 +137,7 @@ export default function Contact({ program, onProgramChange }) {
           </form>
         </div>
 
-        <div className="mt-16 flex flex-col items-start justify-between gap-6 bg-brand px-9 py-11 md:flex-row md:items-center">
+        {/* <div className="mt-16 flex flex-col items-start justify-between gap-6 bg-brand px-9 py-11 md:flex-row md:items-center">
           <div>
             <h3 className="text-2xl font-bold tracking-tight text-white">Abacus of English, delivered home</h3>
             <p className="mt-2 max-w-[520px] leading-relaxed text-white/90">
@@ -148,7 +148,7 @@ export default function Contact({ program, onProgramChange }) {
           <Button href={contact.courseUrl} variant="navy" className="shrink-0">
             Register or sign in
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   )
